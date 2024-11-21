@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"); */
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  /* direction: rtl; */
+}
+body {
+  background-image: url("../public/bg.jpg");
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+input,
+button {
+  font-family: "Alexandria", system-ui;
+}
